@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Student Enrollment
+        </title>
+        <link rel="stylesheet" type="text/css" href="main.css">  
+    </head>
+    <body>
+        <div class="App">
+            <div class="container">
+                   <header class="student-header">
+                       <div class="div-logo">
+                           <span class="logo-text">Student Enrollment Form</span>
+                       </div>
+                       <nav class="student-nav">   
+                       </nav>
+                   </header>
+            </div>  
+            <div class='middle' id="newtask">  
+                <label >Name:</label >
+                <input type="text" id="name"/><br></br>
+                <label >Email:</label >
+                <input type="text" id="email" /><br></br>
+                <label >Website:</label >
+                <input type="text" id="Website"/><br></br>
+                <label >Image Link:</label >
+                <input type="text" id="imagename"/><br></br>
+                <label>Skills:</label>
+                <input type="text" id="skills"/><br></br>
+                <button class='button1' id="push" >Enroll Student</button>
+                <button class='button2' onclick="delRow()" >Delete Row</button>
+              </div>
+              <div class='gr'></div>
+              <label class="hey">Students</label><br></br>
+              <table id="tab"  style="width: 43%;">  
+                <th class="heading1">
+                    <td class="heading1">Name</td>
+                    <td class="heading1">Email</td>
+                    <td class="heading1">Website</td>
+                    <td class="heading1">Image</td>
+                    <td class="heading1">Skills</td>
+                </th>
+              </table>
+        </div>
+        <script src="stu_script.js"></script>
+    </body>
+</html>

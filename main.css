@@ -1,0 +1,130 @@
+
+  .student-header{
+    position: fixed;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    height: 18%;
+    width: 100%;
+    background-color: rgb(138, 167, 33);
+    z-index: 100;
+  }
+  
+  /* student enrollment text*/
+  .logo-text{
+    display: block;
+    font-family: "Helevetica Neue";
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  /* nav bar*/
+  .student-nav{
+    float:right;
+    height: 80%;
+  }
+ 
+  
+  .avatar1{
+    border-radius: 50%;
+  }
+
+  .middle{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5px;
+  
+  }
+  
+  /* vertical stright line*/
+  .gr{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 3px;
+    border-left: 5px solid darkgreen;
+    left:50%;
+    height: 450px;
+  }
+  .third-row{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 3px;
+    margin: 10px;
+    left:55%;
+    text-align: center;
+  }
+  
+  label{
+    width: 100px;
+    display: inline-block;
+    margin: 8px;
+  }
+ 
+  /* enrollment button*/
+  .button1{
+    width:50%;
+    background-color:rgb(39, 63, 158);
+    height: 40px;
+  
+  }
+
+  /* delete row button*/
+  .button2{
+    width:30%;
+    background-color:rgb(216, 7, 7);
+    height: 40px;
+
+  }
+
+  /* student text*/
+  .hey{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 3px;
+    left:70%;
+    height: 450px;
+    font-size: 20px;
+  }
+ 
+  
+table{
+  height:2%;
+  margin-left: 55%;
+  margin-top: 10%;
+  margin-right: 10%;
+  border: 1px solid rgb(20, 20, 20);
+  border-collapse:separate;
+}
+
+td{
+  background-color: rgb(90, 171, 247);
+  color: rgb(243, 243, 232);
+  height: 10%;
+}
+
+#newtask{
+  position: absolute;
+
+  
+}
+
+img{
+  text-align: center;
+  height:100px;
+  width:80%;
+  border-width: 3px;
+}
+
+/*table heading*/
+.heading1{
+  background-color: rgb(5, 27, 31);
+}
+.b1{
+  height: 20px;
+  width: 30px;
+  background-color: red;
+  
+}
+
